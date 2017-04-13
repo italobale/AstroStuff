@@ -9,6 +9,8 @@
 """
 Module for matching indexes of elements in two lists, A and B.
 This works if A is smaller than B and B has no duplicates.
+It returns a list of indexes of the matching elements in B.
+Index = -1 if no match is found in B. 
 """
 
 def matchIDs(A, B):
