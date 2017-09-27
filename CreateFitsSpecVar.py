@@ -71,6 +71,5 @@ hdr2['CRVAL1'] = 4750.0
 hdr2['CDELT1'] = 1.25                                                  
 hdr2['DATE'] = (today, 'Creation date (CCYY-MM-DD) of FITS file')
 
-
-#hdu = pyfits.PrimaryHDU(, prihdr)
 hdulist.writeto('MUSE_spec_'+filename+'.fits', clobber=True)
+print("Fits file written on MUSE_spec_"+filename+".fits")
